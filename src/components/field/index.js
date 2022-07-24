@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
-import { View, Text, TextInput, Animated, StyleSheet, Platform, ViewPropTypes } from 'react-native'
+import { View, Text, TextInput, Animated, StyleSheet, Platform } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 import Line from '../line'
 import Label from '../label'
